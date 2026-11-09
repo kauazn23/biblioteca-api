@@ -1,6 +1,6 @@
-import * as emprestimos from '../models/emprestimosmodel.js';
-import { buscarPorId as buscarLeitor } from '../models/leitoresmodel.js';
-import { buscarPorId as buscarExemplar } from '../models/exemplaresmodel.js';
+import * as emprestimos from '../models/emprestimos.model.js';
+import { buscarPorId as buscarLeitor } from '../models/leitores.model.js';
+import { buscarPorId as buscarExemplar } from '../models/exemplares.model.js';
 
 const LIMITE = 3;
 const MULTA_POR_DIA = 2;
